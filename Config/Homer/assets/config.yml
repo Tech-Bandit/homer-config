@@ -2,12 +2,11 @@
 # Homepage configuration
 # See https://fontawesome.com/icons for icons options
 
-title: "Bandit Server Home Page"
-subtitle: "built with Homer"
+title: "Bandit Server"
 icon: "fa-solid fa-user-secret"
 
 header: true
-footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+footer: '<p>Created by a Techie from the Castle <span class="has-text-danger">❤️</span> <a href="https://fontawesome.com/">font awesome</a> // Check out my <a href="https://github.com/Tech-bandit"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
 
 # Optional theme customization
 theme: default
@@ -39,21 +38,12 @@ colors:
     link: "#3273dc"
     link-hover: "#ffdd57"
 
-# Optional message
-message:
-  #url: https://b4bz.io
-  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Demo !"
-  icon: "fa fa-grin"
-  content: "This is a dummy homepage demo. <br /> Find more information on <a href='https://github.com/bastienwirtz/homer'>github.com/bastienwirtz/homer</a>"
-
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
   - name: "Contribute"
     icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
-    target: "_blank" # optional html a tag target attribute
+    url: "https://github.com/Tech-Bandit"
   - name: "Wiki"
     icon: "fas fa-book"
     url: "https://www.wikipedia.org/"
@@ -70,12 +60,9 @@ services:
   - name: "Applications"
     icon: "fas fa-cloud"
     items:
-      - name: "Awesome app"
-        logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
-        tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
-        target: "_blank" # optional html a tag target attribute
+      - name: "Portainer"
+        logo: "assets/tools/portainer.png"
+        subtitle: "Access to your containers"
       - name: "Another one"
         logo: "assets/tools/sample2.png"
         subtitle: "Another application"
