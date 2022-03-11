@@ -4,7 +4,6 @@
 
 title: "Bandit Server Home Page"
 subtitle: "built with Homer"
-logo: "logo.png"
 icon: "fa-brands fa-ubuntu" # Optional icon
 
 header: true
