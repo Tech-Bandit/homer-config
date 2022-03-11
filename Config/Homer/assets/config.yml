@@ -1,7 +1,7 @@
 
 title: "Bandit Server"
 subtitle: ""
-icon: "assets/tools/user-secret-solid.svg"
+icon: "assets/tools/user-secret-solid.png"
 
 header: true
 footer: '<p>Created by a Techie from the Castle <span class="has-text-danger">❤️</span> <a href="https://fontawesome.com/">font awesome</a> // Check out my <a href="https://github.com/Tech-bandit"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
