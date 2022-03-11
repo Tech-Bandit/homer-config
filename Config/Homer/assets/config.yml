@@ -2,16 +2,14 @@
 # Homepage configuration
 # See https://fontawesome.com/icons for icons options
 
-title: "Bandit Server Home Page"
-subtitle: "built with Homer"
-logo: "logo.png"
-# icon: "fas fa-skull-crossbones" # Optional icon
-
+title: "Bandit Server"
+subtitle: "Homepage"
+# logo: "logo.png"
+icon: fa-solid fa-laptop-mobile # Optional icon
 header: true
-footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
 
 # Optional theme customization
-theme: default
+theme: dark
 colors:
   light:
     highlight-primary: "#3367d6"
@@ -42,10 +40,10 @@ colors:
 
 # Optional message
 message:
-  #url: https://b4bz.io
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "Welcome!"
-  icon: "fa fa-grin"
+  icon: "fa-brands fa-ubuntu"
+  #micon: "fa-brands fa-docker"
   content: "If you found this page then your accessing my webserver"
 
 # Optional navbar
@@ -64,21 +62,3 @@ links:
     icon: "fas fa-file-alt"
     url: "#additional-page" 
 
-# Services
-# First level array represent a group.
-# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
-services:
-  - name: "Applications"
-    icon: "fas fa-cloud"
-    items:
-      - name: "Awesome app"
-        logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
-        tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
-        logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
-        tag: "app"
-        url: "#"
