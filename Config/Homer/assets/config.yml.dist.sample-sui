@@ -2,12 +2,13 @@
 # Homepage configuration
 # See https://fontawesome.com/icons for icons options
 
-title: "Hello beautiful!"
-subtitle: "App dashboard"
+title: "Bandit Server"
+subtitle: "Application Dashboard"
 logo: false
-# icon: "fas fa-skull-crossbones" Optional icon
+icon: "fas fa-user-secret" 
 
 header: true
+footer: false
 
 # Optional theme customization
 theme: sui
@@ -32,7 +33,7 @@ links: []
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
-  - name: "APPLICATIONS"
+  - name: "App List"
     items:
       - name: "Jenkins"
         logo: "assets/tools/jenkins.png"
