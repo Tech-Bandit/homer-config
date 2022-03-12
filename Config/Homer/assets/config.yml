@@ -63,32 +63,33 @@ links:
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 services:
   - name: "Ubuntu Server"
-    icon: "fas fa-code-branch"
+    icon: "fab fa-ubuntu"
     # A path to an image can also be provided. Note that icon take precedence if both icon and logo are set.
     # logo: "path/to/logo"
     items:
       - name: "Portainer"
-        # logo: "assets/tools/sample.png"
-        # Alternatively a fa icon can be provided:
-        icon: "fab fa-jenkins"
-        subtitle: "Bookmark example"
-        tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
+        icon: "fas fa-box-open"
+        subtitle: "Manage your containers"
+        tag: "Portainer"
+        url: "http://192.168.50.177:9000"
         target: "_blank" # optional html tag target attribute
-      - name: "Another one"
-        logo: "assets/tools/sample2.png"
+
+      - name: "Another App"
+        # logo: "assets/tools/sample2.png"
+        icon: "fas fa-code"
         subtitle: "Another application"
         tag: "app"
         # Optional tagstyle
-        tagstyle: "is-success"
+        # tagstyle: "is-success"
         url: "#"
   - name: "WSL2 Server"
-    icon: "fas fa-heartbeat"
+    icon: "fab fa-windows"
     items:
       - name: "Pi-hole"
-        logo: "assets/tools/sample.png"
-        # subtitle: "Network-wide Ad Blocking" # optional, if no subtitle is defined, PiHole statistics will be shown
-        tag: "other"
+        # logo: "assets/tools/sample.png"
+        icon: "fab fa-raspberry-pi"
+        subtitle: "Network-wide Ad Blocking" 
+        tag: "Pi-Hole"
         url: "http://localhost/admin"
         type: "PiHole" # optional, loads a specific component that provides extra features. MUST MATCH a file name (without file extension) available in `src/components/services`
         target: "_blank" # optional html a tag target attribute
