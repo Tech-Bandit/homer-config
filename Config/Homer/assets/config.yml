@@ -114,6 +114,6 @@ services:
         type: "PiHole" 
         target: "_blank" 
         background: red
-        http://192.168.50.96:9000
+        
         
         
