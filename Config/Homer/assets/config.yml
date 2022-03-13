@@ -54,20 +54,13 @@ links:
     url: "http://localhost:8081"
   - name: "Contribute"
     icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
-    target: "_blank" # optional html a tag target attribute
-
+    url: "https://github.com/Tech-Bandit"
+    target: "_blank" # optional html a tag target attribut
 
 # Services
 # First level array represents a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
-services:
-  # First Collum
-  - name: "Ubuntu Server"
-    icon: "fab fa-ubuntu"
-  # logo: "path/to/logo"
-
-  # Templete 
+ # Templete 
   # items:
     # name:
     # logo: 
@@ -76,34 +69,51 @@ services:
     # tag:
     # tagstyle: "is-success"
     # url:
-    # target:
+    # target: "_blank"  # optional html tag target attribute
+    # background: red
+    # class: "green" # optional custom CSS class for card, useful with custom stylesheet
     
-    
+services:
+  # First Collum
+  - name: "Ubuntu Server"
+    icon: "fab fa-ubuntu"
+  # logo: "path/to/logo"
+
     items:
       - name: "Portainer"
         icon: "fas fa-box-open"
         subtitle: "Manage your containers"
         tag: "Portainer"
         url: "http://192.168.50.177:9000"
-        target: "_blank" # optional html tag target attribute
+        target: "_blank" 
 
       - name: "Another App"
-        # logo: "assets/tools/sample2.png"
         icon: "fas fa-code"
         subtitle: "Another application"
         tag: "app"
         url: "#"
+        target: "_blank" 
+        background: red
 
   - name: "WSL2 Server"
     icon: "fab fa-windows"
+   
     items:
+      - name: "Portainer"
+        icon: "fas fa-box-open"
+        subtitle: "Manage your containers"
+        tag: "Portainer"
+        url: "http://192.168.50.96:9000"
+        target: "_blank" 
+
       - name: "Pi-hole"
-        # logo: "assets/tools/sample.png"
         icon: "fab fa-raspberry-pi"
         subtitle: "Network-wide Ad Blocking" 
         tag: "Pi-Hole"
-        url: "http://localhost/admin"
-        type: "PiHole" # optional, loads a specific component that provides extra features. MUST MATCH a file name (without file extension) available in `src/components/services`
-        target: "_blank" # optional html a tag target attribute
-        # class: "green" # optional custom CSS class for card, useful with custom stylesheet
-        # background: red # optional color for card to set color directly without custom stylesheet
+        url: "http:/pi.hole/admin"
+        type: "PiHole" 
+        target: "_blank" 
+        background: red
+        http://192.168.50.96:9000
+        
+        
