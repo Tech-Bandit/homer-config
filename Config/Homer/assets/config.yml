@@ -84,14 +84,14 @@ services:
         icon: "fas fa-box-open"
         subtitle: "Manage your containers"
         tag: "Portainer"
-        url: "http://192.168.50.177:9000"
+        url: "https://192.168.50.177:9443"
         target: "_blank" 
 
       - name: "Kemp Load-Balancer"
-        icon: "fas fa-code"
+        icon: "fas fa-laptop-code"
         subtitle: "Virtual Gateway"
         tag: "Kemp"
-        url: "http://192.168.50.18"
+        url: "https://192.168.50.18"
         target: "_blank" 
 
   - name: "WSL2 Server"
@@ -102,7 +102,7 @@ services:
         icon: "fas fa-box-open"
         subtitle: "Manage your containers"
         tag: "Portainer"
-        url: "http://192.168.50.96:9000"
+        url: "https://192.168.50.96:9443"
         target: "_blank" 
 
       - name: "Pi-hole"
