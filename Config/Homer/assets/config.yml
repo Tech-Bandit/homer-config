@@ -87,13 +87,12 @@ services:
         url: "http://192.168.50.177:9000"
         target: "_blank" 
 
-      - name: "Another App"
+      - name: "Kemp Load-Balancer"
         icon: "fas fa-code"
-        subtitle: "Another application"
-        tag: "app"
-        url: "#"
+        subtitle: "Virtual Gateway"
+        tag: "Kemp"
+        url: "http://192.168.50.18"
         target: "_blank" 
-        background: red
 
   - name: "WSL2 Server"
     icon: "fab fa-windows"
